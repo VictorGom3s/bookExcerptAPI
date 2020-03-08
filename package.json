@@ -1,0 +1,24 @@
+{
+  "name": "bookexcerptapi",
+  "version": "0.0.1",
+  "description": "An API that return excerpts from books. You can choose the genre and the size of the excerpt. For reading tests purposes.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "book",
+    "books",
+    "excerpt"
+  ],
+  "author": "Victor Gomes Sampaio",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
