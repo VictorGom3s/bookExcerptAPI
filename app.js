@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+
+app.use(cors());
 
 /* Getting the routes */
 const textsRoutes = require("./src/routes/texts.routes");
