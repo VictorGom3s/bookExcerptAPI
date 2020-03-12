@@ -6,6 +6,10 @@ A simple API that return excerpts from books. For reading tests purposes.
 
 Built with Node and Express.
 
+### Routes
+
+- Get a random excerpt: (GET) https://book-excerpt-api.herokuapp.com/random
+
 ### Running Localy
 
 -- Clone the respository:
